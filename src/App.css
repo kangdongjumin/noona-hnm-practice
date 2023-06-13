@@ -1,0 +1,159 @@
+.menuForMobile {
+  display: none;
+}
+
+.navbar-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login-button {
+  display: flex;
+  justify-content: flex-end;
+  margin:20px;
+  cursor: pointer;
+}
+
+.login-button div {
+  margin-left: 10px;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: center;
+}
+.nav-section img {
+  width: 150px;
+}
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
+}
+@media screen and (max-width: 480px)  {
+  .menu-list {
+    flex-direction: column;
+    position: absolute;
+    top:50px;
+    left: 10px;
+    background-color: burlywood;
+    padding-left: 0;
+    padding-right: 0;
+    width: 200px;
+  }
+  .menu-bar {
+    display: none;
+  }
+
+  .menu-list li {
+    font-size: 5px;
+  }
+
+  .nav-section img {
+    width:50px;
+  }
+  .navbar-top {
+    display: flex;
+    justify-content: flex-end
+  }
+
+  .menuForMobile {
+    display:block;
+    position: absolute;
+    left: 20px;
+    top:20px;
+    scale:140%;
+  } 
+  .search-area {
+    display: none;
+  }
+ 
+  .menu-list li:hover {
+    background-color: lightgray
+  }
+ 
+
+}
+
+
+.menu-list li {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.menu-area {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.search-area {
+  position: absolute;
+  right: 20px;
+  border-bottom: 2px solid black;
+}
+
+.search-area input {
+  border: none;
+  height: 30px;
+}
+
+.product-card {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.product-card img {
+  width: 280px;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.login-input-box input {
+  width:350px;
+  height:60px;
+}
+
+.login-input-box div {
+  margin-top: 30px;
+  width: 350px;
+}
+
+.login-input-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-button-box {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-button-box button {
+  width:350px;
+  height:60px;
+  border-radius: none;
+  margin-top: 3px;
+  border: 1px solid black;
+}
+
+.product-img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.product-detail div {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.add-button {
+  width: 300px;
+}
